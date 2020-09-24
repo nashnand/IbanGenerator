@@ -1,0 +1,35 @@
+<component name="ArtifactManager">
+  <artifact name="IbanGenerator:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/IbanGenerator_jar</output-path>
+    <root id="root">
+      <element id="archive" name="IbanGenerator.jar">
+        <element id="module-output" name="IbanGenerator" />
+      </element>
+      <element id="library" level="project" name="Maven: org.codehaus.plexus:plexus-utils:3.0.15" />
+      <element id="library" level="project" name="Maven: org.codehaus.plexus:plexus-interpolation:1.11" />
+      <element id="library" level="project" name="Maven: org.apache.maven:maven-project:2.2.1" />
+      <element id="library" level="project" name="Maven: org.apache.maven.wagon:wagon-provider-api:1.0-beta-6" />
+      <element id="library" level="project" name="Maven: org.sonatype.sisu:sisu-inject-plexus:1.4.2" />
+      <element id="library" level="project" name="Maven: org.codehaus.plexus:plexus-classworlds:2.2.3" />
+      <element id="library" level="project" name="Maven: org.apache.maven.shared:maven-shared-utils:3.2.1" />
+      <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.6" />
+      <element id="library" level="project" name="Maven: org.apache.maven:maven-artifact:2.2.1" />
+      <element id="library" level="project" name="Maven: org.sonatype.sisu:sisu-inject-bean:1.4.2" />
+      <element id="library" level="project" name="Maven: org.sonatype.sisu:sisu-guice:noaop:2.1.7" />
+      <element id="library" level="project" name="Maven: org.apache.maven:maven-plugin-api:3.0" />
+      <element id="library" level="project" name="Maven: junit:junit:3.8.1" />
+      <element id="library" level="project" name="Maven: org.apache.maven:maven-plugin-registry:2.2.1" />
+      <element id="library" level="project" name="Maven: org.apache.maven.plugins:maven-install-plugin:2.5.2" />
+      <element id="library" level="project" name="Maven: org.apache.maven:maven-profile:2.2.1" />
+      <element id="library" level="project" name="Maven: org.apache.maven.plugins:maven-clean-plugin:3.1.0" />
+      <element id="library" level="project" name="Maven: org.apache.maven:maven-settings:2.2.1" />
+      <element id="library" level="project" name="Maven: commons-io:commons-io:2.5" />
+      <element id="library" level="project" name="Maven: org.codehaus.plexus:plexus-container-default:1.0-alpha-9-stable-1" />
+      <element id="library" level="project" name="Maven: org.apache.maven:maven-model:2.2.1" />
+      <element id="library" level="project" name="Maven: org.apache.maven:maven-artifact-manager:2.2.1" />
+      <element id="library" level="project" name="Maven: org.apache.maven.plugins:maven-deploy-plugin:2.8.2" />
+      <element id="library" level="project" name="Maven: org.apache.maven:maven-repository-metadata:2.2.1" />
+      <element id="library" level="project" name="Maven: org.codehaus.plexus:plexus-component-annotations:1.5.4" />
+    </root>
+  </artifact>
+</component>
