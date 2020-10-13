@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Main-Class: Iban.IBANGEN
+Main-Class: Iban.IBANCALCULATOR
 Class-Path: plexus-utils-3.0.15.jar plexus-interpolation-1.11.jar maven-
  project-2.2.1.jar wagon-provider-api-1.0-beta-6.jar sisu-inject-plexus-
  1.4.2.jar plexus-classworlds-2.2.3.jar maven-shared-utils-3.2.1.jar com
