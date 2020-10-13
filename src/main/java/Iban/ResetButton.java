@@ -17,7 +17,9 @@ public class ResetButton extends IBANGEN implements ActionListener {
         AccountNumberTextBox.setEditable(true);
         GenratedIBANTextBox.setText("");
         GenerateButton.setEnabled(true);
-
+        ErrorlabelSortcode.setText("");
+        ErrorlabelAccountNumber.setText("");
+        ErrorlabelCountryCode.setText("");
     }
 
 }

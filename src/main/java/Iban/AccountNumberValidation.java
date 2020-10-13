@@ -17,12 +17,10 @@ public class AccountNumberValidation extends IBANGEN implements KeyListener {
         int l = value.length();
         if (ke.getKeyChar() >= '0' && ke.getKeyChar() <= '9' || ke.getKeyChar() == KeyEvent.VK_BACK_SPACE || ke.getKeyChar() == KeyEvent.VK_DELETE) {
             AccountNumberTextBox.setEditable(true);
-            IBANGEN.Errorlabel.setText("");
+            IBANGEN.ErrorlabelAccountNumber.setText("");
         } else {
             AccountNumberTextBox.setEditable(false);
-            /*IBANGEN.Errorlabel.setText("* Enter only numeric digits(0-9)");*/
-            /*panel.add(Errorlabel).setVisible(true);*/
-            AccountNumberTextBox.setToolTipText("* Enter only numeric digits(0-9)");
+            IBANGEN.ErrorlabelAccountNumber.setText("* Enter only numeric digits(0-9)");
         }
     }
 

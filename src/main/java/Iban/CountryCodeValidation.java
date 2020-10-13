@@ -15,10 +15,10 @@ public class CountryCodeValidation extends IBANGEN implements KeyListener {
         int l = value.length();
         if (ke.getKeyChar() >= 'a' && ke.getKeyChar() <= 'z' || ke.getKeyChar() >= 'A' && ke.getKeyChar() <= 'Z' || ke.getKeyChar() == KeyEvent.VK_BACK_SPACE || ke.getKeyChar() == KeyEvent.VK_DELETE) {
             CountryCodeTextBox.setEditable(true);
-            IBANGEN.Errorlabel.setText("");
+            IBANGEN.ErrorlabelCountryCode.setText("");
         } else {
             CountryCodeTextBox.setEditable(false);
-            CountryCodeTextBox.setToolTipText("* Enter only character(a-z)");
+            IBANGEN.ErrorlabelCountryCode.setText("* Enter only character(a-z)");
         }
     }
 

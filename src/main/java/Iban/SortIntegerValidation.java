@@ -16,10 +16,10 @@ public class SortIntegerValidation extends IBANGEN implements KeyListener {
         int l = value.length();
         if (ke.getKeyChar() >= '0' && ke.getKeyChar() <= '9' || ke.getKeyChar() == KeyEvent.VK_BACK_SPACE || ke.getKeyChar() == KeyEvent.VK_DELETE) {
             SortCodeTextBox.setEditable(true);
-            IBANGEN.Errorlabel.setText("");
+            IBANGEN.ErrorlabelSortcode.setText("");
         } else {
             SortCodeTextBox.setEditable(false);
-            SortCodeTextBox.setToolTipText("* Enter only numeric digits(0-9)");
+            IBANGEN.ErrorlabelSortcode.setText("*Enter only numeric digits(0-9)");
         }
     }
 
