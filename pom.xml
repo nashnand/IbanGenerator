@@ -32,7 +32,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>Iban.IBANGEN</mainClass>
+                            <mainClass>Iban.IBANCALCULATOR</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
