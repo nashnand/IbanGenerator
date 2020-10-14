@@ -13,7 +13,6 @@ public class SortIntegerValidation extends IBANGEN implements KeyListener {
     @Override
     public void keyPressed(KeyEvent ke) {
         String value = SortCodeTextBox.getText();
-        int l = value.length();
         if (ke.getKeyChar() >= '0' && ke.getKeyChar() <= '9' || ke.getKeyChar() == KeyEvent.VK_BACK_SPACE || ke.getKeyChar() == KeyEvent.VK_DELETE) {
             SortCodeTextBox.setEditable(true);
             IBANGEN.ErrorlabelSortcode.setText("");

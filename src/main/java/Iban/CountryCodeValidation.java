@@ -12,7 +12,6 @@ public class CountryCodeValidation extends IBANGEN implements KeyListener {
     @Override
     public void keyPressed(KeyEvent ke) {
         String value = CountryCodeTextBox.getText().toLowerCase();
-        int l = value.length();
         if (ke.getKeyChar() >= 'a' && ke.getKeyChar() <= 'z' || ke.getKeyChar() >= 'A' && ke.getKeyChar() <= 'Z' || ke.getKeyChar() == KeyEvent.VK_BACK_SPACE || ke.getKeyChar() == KeyEvent.VK_DELETE) {
             CountryCodeTextBox.setEditable(true);
             IBANGEN.ErrorlabelCountryCode.setText("");
